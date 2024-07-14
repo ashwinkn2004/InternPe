@@ -13,11 +13,13 @@
     <header>
         <a href="#" class="logo">dailyAsh.tech</a>
         <ul class="navlist">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Shop</a></li>
-            <li><a href="#">Brands</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home" class="nav-home">Home</a></li>
+            <li><a href="#products" class="nav-shop">Shop</a></li>
+            <li><a href="#brands" class="nav-brands">Brands</a></li>
+            <li><a href="#newsletter" class="nav-contact">Contact</a></li>
         </ul>
+        
+        
         <div class="nav-right">
             <a href="#"><i class="ri-search-line"></i></a>
             <a href="#"><i class="ri-store-line"></i></a> 
@@ -26,7 +28,7 @@
         </div>
         
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-text">
             <h6>
                 New Arrivals
@@ -38,14 +40,14 @@
                 seamless connectivity<br> with your devices. With impressive battery life and fast charging,<br> the Galaxy Buds 3 Pro are perfect 
                 for music lovers on the go.
             </p>
-            <a href="#" class="btn">
+            <a href="buds3pro.html" class="btn">
                 Shop now
                 <i class="ri-arrow-right-line"></i>
             </a>
         </div>
         <img src="../ECOMMERCE_WEBSITE/images/n4.png" alt="Galaxy Buds 3 Pro" class="right-image">
     </section>
-    <div class="brands">
+    <div class="brands" id="brands">
         <div class="main-brands">
             <div class="brands-c">
               <img src="images/g1.png" class="boat">  
@@ -69,7 +71,7 @@
         </div>
     </div>
     <!--all product-->
-    <section class="n-product">
+    <section class="n-product" id="products">
         <div class="center-text">
             <h2>All Products</h2>
         </div>
@@ -149,7 +151,6 @@
                             <i class="ri-shopping-cart-fill"></i>
                         </a>
                     </div>
-
                     <div class="row-right">
                         <h5>₹9999</h5>
                     </div>
@@ -320,18 +321,69 @@
         </div>        
     </section>
     <!--newsletter-->
-    <section class="newsletter">
+    <section class="newsletter" id="newsletter">
         <div class="newsletter-content">
             <div class="newsletter-text">
                 <h2>Get on the List!</h2>
-                <p>Sign up with your email address to receive updates.</p>
+                <p>Sign up with your email address to receive updates.
+                <br>
+                <h4>Contact: info@dailyash.tech</h4>
+                </p>
             </div>
             <form action="">
-                <input type="email" placeholder="Enter emial address" required>
+                <input type="email" placeholder="Enter email address" required>
                 <input type="submit" value="Subscribe" class="btnnn">
             </form>
         </div>
     </section>
+    
+    <!--footer-->
+    <section class="footer">
+        <div class="footer-box">
+            <h3>dailyAsh</h3>
+            <a href="#">About</a>
+            <a href="#">Features</a>
+            <a href="#">Works</a>
+            <a href="#">Career</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>FAQ</h3>
+            <a href="#">Account</a>
+            <a href="#">Features</a>
+            <a href="#">Works</a>
+            <a href="#">Career</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Resource</h3>
+            <a href="#">Youtube playlist</a>
+            <a href="#">Features</a>
+            <a href="#">Works</a>
+        </div>
+        <div class="footer-box">
+            <h3>Follow us</h3>
+            <div class="social">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!--copyright-->
+
+    <div class="copyright">
+        <div class="end-text">
+            <p>Copyright &copy; 2024 dailyAsh. All rights reserved.</p>
+        </div>
+        <div class="end-img">
+            <img src="../ECOMMERCE_WEBSITE/images/p.png" alt="">
+        </div>
+    </div>
+
     <script src="script.js"></script>
     
 </body>
