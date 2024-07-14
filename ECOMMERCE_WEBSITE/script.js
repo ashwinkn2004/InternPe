@@ -25,3 +25,4 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('newsletter').scrollIntoView({ behavior: 'smooth' });
     });
 });
+
